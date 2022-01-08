@@ -4,7 +4,7 @@ import PostList from './PostList';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container" style={{ gap: '5px'}}>
       <h1>Create Post</h1>
       <PostCreate />
       <hr />
